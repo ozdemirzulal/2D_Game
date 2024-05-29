@@ -10,6 +10,7 @@ public class Alien_Collision : MonoBehaviour
     }
     private void ActivateAlien()
     {
+        // Activite
         gameObject.SetActive(true);
     }
     private void OnCollisionEnter2D(Collision2D other)
