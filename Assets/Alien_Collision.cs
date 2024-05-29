@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+ //test
 public class Alien_Collision : MonoBehaviour
 {
     private void Start()
@@ -9,6 +9,7 @@ public class Alien_Collision : MonoBehaviour
         Game_Manager_Script.Instance.onPlay.AddListener(ActivateAlien);
     }
     private void ActivateAlien()
+
     {
         gameObject.SetActive(true);
     }
